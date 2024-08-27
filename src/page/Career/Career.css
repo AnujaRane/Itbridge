@@ -1,0 +1,38 @@
+.career-counseling {
+  padding: 20px;
+  max-width: 850px;
+  margin-left: 22%;
+  justify-content: center;
+  font-weight: 100;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+.career-counseling h2 {
+  margin-left: -28%;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.career-counseling ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.career-counseling li {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  flex-direction: column;
+  margin-left: -28%;
+  margin-right: -28%;
+}
+
+@media (max-width: 600px) {
+  .career-counseling h2 {
+    font-size: 1.5em;
+  }
+
+  .career-counseling li {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,189 @@
+* {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+     }
+     .emp-container {
+         width: 75%;
+         height: auto;
+         /* border: 2px solid #000; */
+         margin-left: 13%;
+         margin-top: 100px;
+         font-family: serif;
+         margin-bottom: 20px;
+     }
+     .emp-container h5 {
+         color: gray;
+         font-size: 18px;
+     }
+     .emp-container img {
+         float: left;
+         width: 40%;
+         margin-top: 80px;
+         margin-right: 50px;
+     }
+     .emp-container p {
+         color: gray;
+         font-size: 18px;
+         width: 100%;
+         margin-top: 80px;
+     }
+     .emp-container span {
+         font-weight: bold;
+         color: rgb(65, 64, 64);
+         font-size: 18px;
+     }
+     
+     .second1 {
+         width: 75%;
+         height: auto;
+         /* border: 2px solid #000; */
+         margin-left: 13%;
+         margin-top: 40px;
+         font-family: serif;
+         margin-bottom: 20px;
+     }
+     .second1 p{
+         width: 55%;
+         margin-top: 4%;
+         font-size: 18px;
+         color: gray;
+         float: left;
+         margin-right: 50px;
+     }
+     .second1 span {
+         color: rgb(65, 64, 64);
+         font-weight: bold;
+     }
+     .second1 img {
+         width: 40%;
+         margin-top: 6%;
+     }
+     
+     .third1 {
+         width: 75%;
+         height: auto;
+         /* border: 2px solid #000; */
+         margin-left: 13%;
+         margin-top: 60px;
+         font-family: serif;
+         /* margin-bottom: 10%; */
+         overflow: hidden;
+     }
+     .third1 p {
+         color: gray;
+         width: 40%;
+         font-size: 18px;
+         float: right;
+         margin-top: 20px;
+         margin-bottom: 150px;
+     }
+     .third1 span {
+         font-weight: bold;
+         font-size: 18px;
+         float: left;
+         color: rgb(65, 64, 64);
+     }
+     .third1 img {
+         float: left;
+         width: 40%;
+         margin-top: 20px;
+         margin-right: 50px;
+         margin-bottom: 20px;
+     }
+     /* .third1 h5 {
+         color: gray;
+         margin-top: 20px;
+         font-size: 18px;
+         font-weight: 200;
+     } */
+     
+     .fourth {
+         width: 75%;
+         height: auto;
+         /* border: 2px solid #000; */
+         margin-left: 13%;
+         /* margin-top: 100px; */
+         font-family: serif;
+         margin-bottom: 20px;
+     }
+     .fourth p{
+         width: 55%;
+         font-size: 18px;
+         color: gray;
+         float: left;
+         margin-right: 50px;
+     }
+     .fourth span {
+         color: rgb(65, 64, 64);
+         font-weight: bold;
+     }
+     .fourth img {
+         width: 40%;
+         margin-top: 0px;
+     }
+     .fourth h5 {
+         color: gray;
+         margin-top: 20px;
+         font-size: 18px;
+         font-weight: 200;
+     }
+    
+     
+     @media screen and (max-width: 768px) {
+         .emp-container {
+             width: 100%;
+         }
+         .emp-container h5{
+             width: 80%;
+             margin: 20px;
+         }
+         .emp-container img {
+             float: left;
+             width: 80%;
+         }
+         .emp-container p {
+             float: left;
+             width: 86%;
+         }
+         .second1 {
+             width: 100%;
+         }
+         .second1 p {
+             width: 86%;
+             margin-top: 40px;
+         }
+         .second1 img {
+             float: left;
+             width: 80%;
+             margin-top: 40px;
+         }
+         .third1 {
+             width: 100%;
+         }
+         .third1 p {
+             float: left;
+             width: 80%;
+         }
+         .third1 img {
+             float: left;
+             width: 80%;
+             margin-top: -80px;
+         }
+         .fourth {
+             width: 80%;
+         }
+         .fourth p {
+             width: 100%;
+             margin-top: 40px;
+         }
+         .fourth img {
+             float: left;
+             width: 100%;
+             margin-top: 40px;
+             margin-bottom: 40px;
+         }
+         .fourth h5 {
+             width: 100%;
+         }
+     }

@@ -1,0 +1,667 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.servicePage5 {
+  background-color: #171717;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.servicePage1 {
+  display: flex;
+  width: 100%;
+  margin: 100px 0px;
+}
+
+.servicePage1R {
+  width: 25%;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+
+.servicePage1L {
+  margin-left: 100px;
+  width: 75%;
+  font-size: 70px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.servicePage1L2 {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  right: 320px;
+}
+
+.servicePage3 {
+  margin: 100px 0px;
+}
+
+.servicePage3P {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  width: 40%;
+  padding: 0px 100px;
+}
+
+.servicePage3 {
+  display: flex;
+  width: 100%;
+}
+
+.servicePage3P {
+  width: 60%;
+}
+
+.servicePage3i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+.servicePage3i > img {
+  width: 80%;
+  border-radius: 30px;
+}
+
+.servicePage31 {
+  font-size: 40px;
+}
+
+.servicePage33 {
+  font-weight: 100;
+  line-height: 2;
+  text-align: justify;
+}
+
+.servicePage4 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  align-items: center;
+  margin: 150px 0px;
+}
+.servicePage4a {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  align-items: center;
+  padding: 50px 0;
+}
+.servicePage41 {
+  font-size: 50px;
+  font-weight: 550;
+}
+
+servicePage42{
+  font-size: 15px;
+}
+
+.servicePage43 {
+  width: 70%;
+  line-height: 1.5;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 400;
+}
+.servicePage44 {
+  display: flex;
+  width: 80vw;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+  gap: 10px;
+}
+
+.servicePage4419 {
+  height: 200px;
+  margin-top: 50px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 30px;
+  padding: 20px;
+  background: #f2efe8;
+  justify-content: space-between;
+}
+.servicePage441 {
+  height: 200px;
+  margin-top: 50px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 30px;
+  padding: 20px;
+  background: #fae5d1;
+  justify-content: space-between;
+}
+
+.servicePage4414 {
+  height: 200px;
+  margin-top: 50px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 30px;
+  padding: 20px;
+  background: #dfefd7;
+  justify-content: space-between;
+}
+
+.section5HomeHeading {
+  font-size: 40px;
+  font-weight: 550;
+}
+
+.servicePage4411 > img {
+  width: 3vw;
+}
+
+.servicePage4412 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.servicePage4443 {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1111px) {
+  .servicePage4443 {
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .abouts122 {
+    width: 20vw !important;
+  }
+  .abouts121 {
+    width: 50vw !important;
+  }
+}
+
+@media screen and (max-width: 1031px) {
+  .servicePage44 {
+    flex-direction: column !important;
+  }
+  .servicePage441,
+  .servicePage4419,
+  .servicePage4414 {
+    width: 100% !important;
+    height: 150px !important;
+  }
+  .whyhelo12 img {
+    height: 40vh !important;
+  }
+  .abouts11 {
+    width: 100vw !important;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .huihui {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .whyhelo1,
+  .whyhelo2,
+  .whyhelo3 {
+    gap: 20px;
+    flex-direction: column-reverse;
+  }
+  .abouts12 {
+    width: 90vw !important;
+  }
+
+  .abouts11 {
+    height: 45vh !important;
+  }
+
+  .abouts121 {
+    width: 65vw !important;
+  }
+  .abouts11 {
+    font-size: 130px !important;
+    text-align: left !important;
+  }
+  .whyhelo11 {
+    width: 100% !important;
+  }
+
+  .whyhelo12 {
+    width: 90% !important;
+    justify-content: center !important;
+  }
+  .aboutwrapper2 {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .about2l {
+    width: 100% !important;
+  }
+  .about2r {
+    width: 80vw !important;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .huihui,
+  .whyhelo12 {
+    width: 100% !important;
+  }
+  .servicePage44 {
+    margin-bottom: 0px !important;
+  }
+
+  .abouts11 {
+    font-size: 110px !important;
+    text-align: left !important;
+  }
+  .whyhelo1,
+  .whyhelo2,
+  .whyhelo3 {
+    padding: 20px !important;
+  }
+  .whysw133 {
+    font-size: 40px !important;
+  }
+  .abouts122 {
+    display: none !important;
+  }
+
+  .abouts121 {
+    width: 90vw !important;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .abouts11 {
+    height: 55vh !important;
+  }
+}
+
+.servicePage54 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  width: 45vw;
+  padding: 50px;
+}
+
+.servicePage54H1 {
+  text-align: center;
+  color: white;
+  font-size: 72px;
+  font-weight: 550;
+}
+
+.servicePage54H2 {
+  text-align: center;
+  color: #ededed;
+  font-size: 72px;
+  font-weight: 550;
+}
+
+.formContact {
+  display: flex;
+  border: none;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.sec1 {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+}
+
+.formInput1 {
+  width: 80%;
+  background: #ededed05;
+  color: #ccc;
+  border: 0;
+  outline: none;
+  border-radius: 20px;
+  height: 50px;
+  padding: 20px;
+  border: 1px solid #ededed17;
+}
+.servicePage541p {
+  color: white;
+  line-height: 1.5;
+  font-weight: 100;
+  font-size: 18px;
+  padding-bottom: 30px;
+  text-align: justify;
+}
+
+.servicePage542 {
+  border-top: 1px solid #a0a0a24a;
+}
+
+.servicePage542 {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+}
+.servicePage5421 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: space-around;
+}
+
+.servicePage54211 {
+  color: white;
+  font-size: 18px;
+}
+
+.servicePage54212 {
+  font-size: 18px;
+  color: white;
+}
+
+form > textarea {
+  width: 100%;
+  background: rgba(237, 237, 237, 0.02);
+  border-radius: 20px;
+  resize: none;
+  color: white;
+  padding: 50px 20px;
+  border: 1px solid #ededed17;
+  margin-top: 5px;
+  height: 117px;
+}
+.servicePage542 > button {
+  border: none;
+  padding: 18px 24px;
+  font-weight: 550;
+  width: 180px;
+  align-items: center;
+  font-size: 15px;
+  border-radius: 20px;
+  margin: 0;
+  background: none;
+  color: #171717;
+  background-color: #ededed;
+}
+
+@media screen and (max-width: 1350px) {
+  .servicePage1L2 {
+    right: 150px !important;
+  }
+
+  .servicePage54 {
+    width: 55vw;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .servicePage54 {
+    width: 65vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .servicePage54 {
+    width: 100vw;
+  }
+
+  .servicePage54H1,
+  .servicePage54H2 {
+    text-align: start;
+    font-size: 42px !important;
+  }
+
+  .formContact {
+    margin-top: 20px !important;
+    margin-bottom: 15px !important;
+  }
+  .servicePage1L2 {
+    right: 0px !important;
+  }
+
+  .servicePage43 {
+    width: 100% !important;
+    padding: 0px 30px !important;
+  }
+
+  .servicePage3 {
+    flex-direction: column !important;
+  }
+
+  .servicePage3P {
+    width: 100% !important;
+  }
+
+  .servicePage3i {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .formInput1 {
+    width: 100% !important;
+  }
+
+  .sec1 {
+    flex-direction: column !important;
+  }
+
+  .servicePage4 {
+    margin: 50px 0px !important;
+  }
+  .servicePage542 {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+
+  .servicePage4443 {
+    font-weight: 100;
+  }
+  .servicePage542 > button {
+    width: 100%;
+  }
+  .servicePage1R {
+    display: none !important;
+  }
+  .servicePage4411 > img {
+    width: 6vw !important;
+  }
+  .servicePage441 {
+    height: 150px !important;
+    width: 100% !important;
+  }
+  .servicePage1L {
+    width: 100%;
+    font-size: 50px;
+    margin: 0 !important;
+  }
+
+  .servicePage44 {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .servicePage41 {
+    font-size: 40px !important;
+  }
+
+  .servicePage4 {
+    gap: 30px !important;
+  }
+  .servicePage42 {
+    font-size: 12px;
+  }
+  .servicePage3P {
+    padding: 0px 50px !important;
+  }
+
+  .servicePage43 {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .servicePage54H1,
+  .servicePage54H2 {
+    text-align: start;
+    font-size: 32px !important;
+  }
+
+  .servicePage54 {
+    padding: 20px !important;
+  }
+  .servicePage1 {
+    margin: 50px 0px !important;
+  }
+  .servicePage4411 > img {
+    width: 9vw !important;
+  }
+  .servicePage1L {
+    width: 100%;
+    font-size: 30px;
+    padding-left: 30px;
+  }
+
+  .servicePage41 {
+    font-size: 30px !important;
+    padding: 0px 20px !important ;
+    /* width: 100% !important; */
+  }
+  .anchorBtn1 {
+    width: 35vw !important;
+  }
+
+  .servicePage31 {
+    font-size: 20px !important;
+  }
+  .servicePage3 {
+    margin: 30px 0px !important;
+  }
+
+  .servicePage3P {
+    padding: 0px 30px !important;
+  }
+  .servicePage1L2 {
+    flex-direction: row !important;
+  }
+}
+
+.aboutwrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.aboutwrapper1 {
+  width: 80vw;
+}
+
+.abouts1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.abouts11 {
+  font-size: 170px;
+  width: 60vw;
+  font-weight: 600;
+  line-height: 0.8;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.abouts121 {
+  /* width: 30vw; */
+  font-size: 20px;
+  font-weight: 450;
+}
+
+.abouts122 {
+  border-left: 1px solid #8080802e;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 10vw;
+  height: 20vh;
+}
+
+.abouts122 img {
+  width: 80%;
+}
+
+.abouts12 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80vw;
+  height: 25vh;
+  border-top: 1px solid #8080802e;
+  margin-bottom: 30px;
+}
+
+.aboutwrapper2 {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+}
+
+.about2l {
+  font-size: 55px;
+  width: 30%;
+  font-weight: 600;
+}
+
+.about2r {
+  width: 30vw;
+}
+.about2r1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  border-top: 1px solid #8080802e;
+  padding: 40px 0px;
+}
+
+.huei img {
+  width: 82vw;
+  margin-bottom: 50px;
+  border-radius: 30px;
+}
+
+.about2r121 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about2r1212 {
+  font-weight: 400;
+  opacity: 0.7;
+  line-height: 1.5;
+}
+
+.about2r1211 {
+  font-weight: 550;
+}

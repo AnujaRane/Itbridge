@@ -1,0 +1,26 @@
+
+.questions {
+    margin-top: 10%;
+    margin-left: 7%;
+    width: 88%;
+    margin-bottom: 10%;
+}
+.questions h1 {
+    font-size: 30px;
+    color: rgb(65, 61, 61);
+    font-family: serif;
+    font-weight: bold;
+}
+.questions h2 {
+    font-size: 24px;
+    color: rgb(65, 61, 61);
+    font-family: serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.questions p {
+    font-size: 18px;
+    font-weight: 100;
+    text-align: justify;
+    /* width: 55%; */
+}
